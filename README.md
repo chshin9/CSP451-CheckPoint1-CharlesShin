@@ -1,29 +1,47 @@
 # CSP451 CheckPoint 1 Project
 
 ## Project Title
+
 CSP451 Version Control and GitHub CheckPoint 1
 
 ## Description
-This project demonstrates proficiency in Git version control and GitHub repository management. 
-It includes a basic web application with HTML, CSS, and JavaScript, showcasing proper Git 
+
+This project demonstrates proficiency in Git version control and GitHub repository management.
+It includes a basic web application with HTML, CSS, and JavaScript, showcasing proper Git
 workflows, commit conventions, and branching strategies.
+
+
+
+\## Features:
+
+
+
+* An HTML page
+* External CSS styles
+* JS interaction
+
+
 
 ## Installation Instructions
 
 ### Prerequisites
-- Git installed on your system
-- A modern web browser
-- GitHub account
+
+* Git installed on your system
+* A modern web browser
+* GitHub account
 
 ### Steps
+
 1. Clone the repository:
-   ```bash
+
+```bash
    git clone https://github.com/DC-Seneca/CK1.git
    cd CK1/csp451-checkpoint1
    ```
 
 2. Navigate to the project directory:
-   ```bash
+
+```bash
    cd csp451-checkpoint1
    ```
 
@@ -32,15 +50,18 @@ workflows, commit conventions, and branching strategies.
 ## Usage Examples
 
 ### Viewing the Project
-Simply open `index.html` in any web browser. The page will display a welcome message 
+
+Simply open `index.html` in any web browser. The page will display a welcome message
 and demonstrate basic HTML/CSS/JavaScript integration.
 
 ### Checking Git History
+
 ```bash
 git log --oneline
 ```
 
 ### Viewing File Changes
+
 ```bash
 git diff
 ```
@@ -50,11 +71,12 @@ git diff
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Make your changes following the commit message convention:
-   - `feat:` for new features
-   - `fix:` for bug fixes
-   - `docs:` for documentation
-   - `style:` for formatting
-   - `refactor:` for code refactoring
+
+   * `feat:` for new features
+   * `fix:` for bug fixes
+   * `docs:` for documentation
+   * `style:` for formatting
+   * `refactor:` for code refactoring
 4. Commit your changes (`git commit -m 'feat: add amazing feature'`)
 5. Push to the branch (`git push origin feature/amazing-feature`)
 6. Open a Pull Request
@@ -74,3 +96,4 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
